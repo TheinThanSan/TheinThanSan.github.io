@@ -282,10 +282,41 @@ nav{
 
 
 /*sell art section*/
+.carousel-control-prev-icon:after{
+	display: inline-block;
+	content: '<';
+	font-size: 40px;
+	color: #000;
+	height: 15px;
+	line-height: 15px;
+}
+.carousel-control-next-icon:after{
+	display: inline-block;
+	content: '>';
+	font-size: 40px;
+	color: #000;
+	height: 15px;
+	line-height: 15px;
+}
 
 
 /*start sell 1 section*/
-
+#start-sell1{
+	background: url(../images/bg-image.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-position: center;
+}
+#start-sell2{
+	background: url(../images/bg-image2.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-position: center;
+}
 #start-sell1 button{
 	border-radius: 25px;
 	border: none;
