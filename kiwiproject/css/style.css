@@ -423,7 +423,7 @@ nav{
 
 /*about us section*/
 #aboutt .about{
-	background: url(../images/aboutus.png)!important !important;
+	background: url(../images/aboutus.png)!important;
 	background-size: cover;
 	position: relative;
 	background-position: center;
@@ -543,7 +543,7 @@ nav{
 	#banner2 .banner-area2{
 		display: none;
 	}
-	#aboutt .about{
+	.about{
 		width: 100% !important;
 		height: 35vh !important;
 	}
@@ -567,18 +567,18 @@ nav{
 	.toggler{
 		position: fixed-right;
 	}
-	.about-mission1{
+	#about .about-mission1{
 		transform: none;
 		position: absolute;
-		top: 33%;
-		left: 32%;
+		top: 37%;
+		left: 25%;
 		padding: 0 15px;
 		
 	}
-	.about-mission2{
+	#about .about-mission2{
 		transform: none;
 		position: absolute;
-		top: 48%;
+		top: 42%;
 		left: 0;
 		padding: 0 15px;
 		
