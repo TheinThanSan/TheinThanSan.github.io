@@ -567,18 +567,18 @@ nav{
 	.toggler{
 		position: fixed-right;
 	}
-	#about .about-mission1{
+	.about-mission1{
 		transform: none;
 		position: absolute;
-		top: 37%;
-		left: 25%;
+		top: 33%;
+		left: 40%;
 		padding: 0 15px;
 		
 	}
-	#about .about-mission2{
+	.about-mission2{
 		transform: none;
 		position: absolute;
-		top: 42%;
+		top: 48%;
 		left: 0;
 		padding: 0 15px;
 		
