@@ -423,7 +423,7 @@ nav{
 
 /*about us section*/
 #aboutt .about{
-	background: url(../images/aboutus.png)!important;
+	background: url(../images/aboutus.png)!important !important;
 	background-size: cover;
 	position: relative;
 	background-position: center;
@@ -543,13 +543,13 @@ nav{
 	#banner2 .banner-area2{
 		display: none;
 	}
-	.about{
-		width: 100%;
-		height: 35vh;
+	#aboutt .about{
+		width: 100% !important;
+		height: 35vh !important;
 	}
 	#social{
-		width: 100%;
-		height: 30vh;
+		width: 100% !important;
+		height: 30vh !important;
 	}
 	#social-p2 img{
 		width: 100% !important;
