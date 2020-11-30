@@ -496,6 +496,9 @@ nav{
 	height: 60vh;
 	z-index: -2;
 }
+.social-p{
+	position: absolute;
+}
 .overlay-social{
 	min-width: 100%;
 	min-height: 100%;
