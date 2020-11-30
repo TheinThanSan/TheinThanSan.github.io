@@ -499,7 +499,6 @@ nav{
 	z-index: 1;
 }
 .social-p p{
-	position: absolute;
 	z-index: 5 !important;
 }
 .overlay-social{
