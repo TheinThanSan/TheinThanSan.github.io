@@ -517,7 +517,9 @@ nav{
 .btn-purple{
 
 	background-color: #6f42c1;
-
+}
+.card-body{
+	height: 15rem;
 }
 
 
