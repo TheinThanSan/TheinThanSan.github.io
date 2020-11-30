@@ -498,10 +498,11 @@ nav{
 	height: 60vh;
 	z-index: 1;
 }
-.social-p p{
+#social .social-p p{
 	z-index: 5 !important;
+	position: relative;
 }
-.overlay-social{
+#social .overlay-social{
 	min-width: 100%;
 	min-height: 100%;
 	background-color: #000;
