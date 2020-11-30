@@ -443,14 +443,14 @@ nav{
 }
 .about-mission1{
 	position: absolute;
-	top: 30%;
+	top: 3%;
 	left: 45%;
-	z-index: 3 !important;
+	z-index: 3;
 }
 .about-mission2{
 	position: absolute;
-	top: 55%;
-	z-index: 4 !important;
+	top: 30%;
+	z-index: 3;
 }
 .about1{
 	background: url(../images/about1.jpg);
@@ -570,15 +570,15 @@ nav{
 	.about-mission1{
 		transform: none;
 		position: absolute;
-		top: 33%;
-		left: 40%;
+		top: -20%;
+		left: 37%;
 		padding: 0 15px;
 		
 	}
 	.about-mission2{
 		transform: none;
 		position: absolute;
-		top: 48%;
+		top: 27%;
 		left: 0;
 		padding: 0 15px;
 		
