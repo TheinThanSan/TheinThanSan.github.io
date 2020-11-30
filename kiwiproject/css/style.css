@@ -422,7 +422,7 @@ nav{
 }
 
 /*about us section*/
-.about{
+#aboutt .about{
 	background: url(../images/aboutus.png);
 	background-size: cover;
 	position: relative;
@@ -431,7 +431,7 @@ nav{
 	height: 80vh;
 	z-index: 1 !important;
 }
-.overlay-abt{
+#aboutt .overlay-abt{
 	min-width: 100%;
 	min-height: 100%;
 	background-color: #000;
@@ -441,13 +441,13 @@ nav{
 	left: 0;
 	z-index: 2 !important;
 }
-.about-mission1{
+#aboutt .about-mission1{
 	position: absolute;
 	top: 30%;
 	left: 45%;
 	z-index: 3 !important;
 }
-.about-mission2{
+#aboutt .about-mission2{
 	position: absolute;
 	top: 55%;
 	z-index: 4 !important;
