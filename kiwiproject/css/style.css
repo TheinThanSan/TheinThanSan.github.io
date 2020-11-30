@@ -522,18 +522,14 @@ nav{
 
 
 
-
-
-
 @media screen and (max-width: 768px){
 	#banner .banner-area{
 		width: 100%;
-		height: 53vh;
+		height: 38vh;
 		background-position: center;
 	}
 	#banner2 .banner-area2{
-		width: 100%;
-		height: 28vh;
+		display: none;
 	}
 	#about{
 		width: 100%;
@@ -552,6 +548,7 @@ nav{
     	margin-left: 10px;
     	padding-bottom: 15px;
 	}
+
 	#menu{
 		display: none;
 	}
@@ -597,21 +594,6 @@ nav{
 	#social-p2 p{
 		font-size: 15px !important;
 	}
-}
-
-@media screen and (min-width: 890px){
-	#side-navbar{
-		display: none;
-	}
-	.toggler .fa-times{
-		display: none;
-	}
-	.toggler .fa-bars{
-		display: none;
-	}
-}
-
-@media screen and (max-width: 490px){
 	#banner2 .banner-area2{
 		width: 100%;
 		height: 28vh;
@@ -631,6 +613,18 @@ nav{
 	}
 	.toggler .fa-bars{
 		display: block;
+	}
+}
+
+@media screen and (min-width: 890px){
+	#side-navbar{
+		display: none;
+	}
+	.toggler .fa-times{
+		display: none;
+	}
+	.toggler .fa-bars{
+		display: none;
 	}
 }
 
